@@ -1,0 +1,28 @@
+body{
+	background-color: greenyellow;
+}
+p{
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+h1{
+text-align: center;
+     font-family: Arial, sans-serif;
+    color: deepskyblue;
+}
+
+
+img{
+    width:150px;
+    height: 150px;
+    padding: 10px;
+    filter:grayscale(100%); 
+    
+}
+img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
